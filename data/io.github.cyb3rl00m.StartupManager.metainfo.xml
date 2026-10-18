@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.cyb3rl00m.StartupManager</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Startup Manager</name>
+  <summary>Choose which apps and commands run when you log in</summary>
+  <description>
+    <p>
+      Startup Manager shows everything that starts when you log in and lets you change it with a
+      switch. It can also run your own bash commands at login.
+    </p>
+    <ul>
+      <li>Add installed apps (APT, Snap, Flatpak) or any program to your startup list</li>
+      <li>Pause, edit, delay or remove startup entries, with undo</li>
+      <li>Turn off entries that installed software added for everyone, for your account only, and restore them later</li>
+      <li>Run your own bash commands at login, with a syntax check, an optional delay, waiting for
+        the network, Run Now for testing and saved output</li>
+    </ul>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Apps that start when you log in, each with an on/off switch</caption>
+      <image>https://raw.githubusercontent.com/cyb3rl00m/startup-manager/main/docs/screenshot.png</image>
+    </screenshot>
+  </screenshots>
+  <launchable type="desktop-id">io.github.cyb3rl00m.StartupManager.desktop</launchable>
+  <url type="homepage">https://github.com/cyb3rl00m/startup-manager</url>
+  <url type="bugtracker">https://github.com/cyb3rl00m/startup-manager/issues</url>
+  <developer id="io.github.cyb3rl00m">
+    <name>cyb3rl00m</name>
+  </developer>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="1.0.0" date="2026-10-18"/>
+  </releases>
+</component>

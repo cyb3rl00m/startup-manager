@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Startup Manager
+GenericName=Startup Applications
+Comment=Choose which apps and commands run when you log in
+Exec=startup-manager
+Icon=io.github.cyb3rl00m.StartupManager
+Terminal=false
+Categories=GTK;GNOME;Settings;DesktopSettings;Utility;
+Keywords=autostart;startup;login;boot;session;bash;script;command;
+StartupNotify=true

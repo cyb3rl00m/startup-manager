@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#62a0ea"/>
+      <stop offset="1" stop-color="#1c71d8"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f0f4fa"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="12" width="112" height="108" rx="22" fill="#1a5fb4"/>
+  <rect x="8" y="8" width="112" height="108" rx="22" fill="url(#bg)"/>
+  <rect x="22" y="24" width="84" height="78" rx="10" fill="url(#card)"/>
+  <!-- row 1: on -->
+  <circle cx="35" cy="40" r="6" fill="#e66100"/>
+  <rect x="46" y="37" width="24" height="6" rx="3" fill="#77767b"/>
+  <rect x="76" y="33" width="22" height="14" rx="7" fill="#2ec27e"/>
+  <circle cx="91" cy="40" r="5" fill="#ffffff"/>
+  <!-- row 2: off -->
+  <circle cx="35" cy="63" r="6" fill="#9141ac"/>
+  <rect x="46" y="60" width="18" height="6" rx="3" fill="#77767b"/>
+  <rect x="76" y="56" width="22" height="14" rx="7" fill="#c0bfbc"/>
+  <circle cx="83" cy="63" r="5" fill="#ffffff"/>
+  <!-- row 3: terminal command, on -->
+  <rect x="29" y="79" width="12" height="12" rx="3" fill="#241f31"/>
+  <path d="M32 82.5 l3 2.5 -3 2.5" stroke="#ffffff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="46" y="82" width="22" height="6" rx="3" fill="#77767b"/>
+  <rect x="76" y="78" width="22" height="14" rx="7" fill="#2ec27e"/>
+  <circle cx="91" cy="85" r="5" fill="#ffffff"/>
+</svg>

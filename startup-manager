@@ -1,0 +1,19 @@
+#!/usr/bin/python3
+"""Launcher. Works from the source folder and when installed (/usr via .deb, /usr/local via install.sh)."""
+import os
+import sys
+
+HERE = os.path.dirname(os.path.realpath(__file__))
+CANDIDATES = [os.path.join(HERE, "src")]                      # source folder
+if os.path.basename(HERE) == "bin":                           # <prefix>/bin → <prefix>/lib/startup-manager
+    CANDIDATES.append(os.path.join(os.path.dirname(HERE), "lib", "startup-manager"))
+CANDIDATES.append("/usr/lib/startup-manager")
+
+for candidate in CANDIDATES:
+    if os.path.isdir(os.path.join(candidate, "startup_manager")):
+        sys.path.insert(0, candidate)
+        break
+
+from startup_manager.main import main  # noqa: E402
+
+sys.exit(main(sys.argv))
